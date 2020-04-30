@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac90e835-25a1-4217-bcb1-c012c9acbd13" name="Default Changelist" comment="" />
+    <list default="true" id="ac90e835-25a1-4217-bcb1-c012c9acbd13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter13b/ThrowingExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZrVxv9aDRUspVrnp63tgIl9dMa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,9 +33,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
-  <component name="RunManager" selected="Application.Best">
+  <component name="RunManager" selected="Application.ExceptionHandling (1)">
     <configuration name="Best" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter12b.Best" />
       <module name="TestAutoUniv" />
@@ -56,6 +62,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExceptionHandling (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13b.ExceptionHandling" />
+      <module name="TestAutoUniv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter13b.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13a.ExceptionHandling" />
+      <module name="TestAutoUniv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter13a.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Farm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter11b.Farm" />
       <module name="TestAutoUniv" />
@@ -69,39 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter11a.ShapeTester" />
-      <module name="TestAutoUniv" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter11a.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.Zoo" />
-      <module name="TestAutoUniv" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionHandling (1)" />
+        <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.Best" />
         <item itemvalue="Application.CollectionsDemo" />
         <item itemvalue="Application.Farm" />
-        <item itemvalue="Application.ShapeTester" />
-        <item itemvalue="Application.Zoo" />
       </list>
     </recent_temporary>
   </component>
@@ -135,30 +141,40 @@
       <screen x="1920" y="0" width="1360" height="728" />
     </state>
     <state x="2405" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1360.728@1920.0.1360.728" timestamp="1585712475765" />
-    <state width="1317" height="179" key="GridCell.Tab.0.bottom" timestamp="1585719292167">
-      <screen x="1920" y="0" width="1360" height="728" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1588218039133">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1588218039133" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1588219094927">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1588219094927" />
     <state width="1317" height="179" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1360.728@1920.0.1360.728" timestamp="1585719292167" />
-    <state width="1317" height="179" key="GridCell.Tab.0.center" timestamp="1585719292167">
-      <screen x="1920" y="0" width="1360" height="728" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1588219094927">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1588219094927" />
     <state width="1317" height="179" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1360.728@1920.0.1360.728" timestamp="1585719292167" />
-    <state width="1317" height="179" key="GridCell.Tab.0.left" timestamp="1585719292167">
-      <screen x="1920" y="0" width="1360" height="728" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1588219094927">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1588219094927" />
     <state width="1317" height="179" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1360.728@1920.0.1360.728" timestamp="1585719292167" />
-    <state width="1317" height="179" key="GridCell.Tab.0.right" timestamp="1585719292167">
-      <screen x="1920" y="0" width="1360" height="728" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1588219094927">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1588219094927" />
     <state width="1317" height="179" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1360.728@1920.0.1360.728" timestamp="1585719292167" />
-    <state x="2101" y="0" key="SettingsEditor" timestamp="1585598174252">
-      <screen x="1920" y="0" width="1360" height="728" />
+    <state x="170" y="0" key="SettingsEditor" timestamp="1588218072158">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="170" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1588218072158" />
     <state x="2101" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1360.728@1920.0.1360.728" timestamp="1585598174252" />
-    <state x="2296" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585659951610">
-      <screen x="1920" y="0" width="1360" height="728" />
+    <state x="354" y="176" key="com.intellij.ide.util.TipDialog" timestamp="1586636293084">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2296" y="188" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1360.728@1920.0.1360.728" timestamp="1585659951610" />
+    <state x="354" y="176" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586636293084" />
     <state x="2263" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585718746091">
       <screen x="1920" y="0" width="1360" height="728" />
     </state>
